@@ -59,5 +59,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<properties>
+		<spring.profiles.active>
+			buildspec
+		</spring.profiles.active>	
+	</properties>	
 
 </project>
