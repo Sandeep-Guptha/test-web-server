@@ -1,8 +1,15 @@
+spring:
+ profiles:
+    active: @spring.profies.active@
+
 server:
   port: 80
  
 app:
   datasource:
-    jdbc-url:
+    jdbc-url: jdbc:mysql://test-db.ctdftsrbj2jc.us-west-2a.rds.amazonaws.com:3306/testdb
+    username: root
+    password: 12345678
+    pool-size: 30
   
   
